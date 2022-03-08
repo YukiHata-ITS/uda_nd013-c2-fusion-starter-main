@@ -138,7 +138,7 @@ class Trackmanagement:
                 if meas_list[0].sensor.in_fov(track.x):
                     # your code goes here
                     track.score -= 1./params.window     # 暫定
-                    pass 
+                    
 
         # delete old tracks   
         for track in self.track_list:
